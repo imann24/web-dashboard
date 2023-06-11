@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import styles from '../styles/Home.module.css'
 import Background from '../components/Background'
+import Weather from '../components/Weather'
 
 const IndexPage: NextPage = () => {
   return (
@@ -12,8 +13,7 @@ const IndexPage: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Background />
-      {/* TODO: REMOVE THIS: */}
-      <h1>Hello World</h1>
+      <Weather />
     </div>
   )
 }

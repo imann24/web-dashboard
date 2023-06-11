@@ -1,6 +1,7 @@
+import type { FunctionComponent } from 'react'
 import styles from './Background.module.css'
 
-const Background = ({}) => {
+const Background: FunctionComponent = ({}) => {
     return (
         <div className={styles.bg} style={{
             // TODO:
