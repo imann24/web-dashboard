@@ -16,6 +16,7 @@ const IndexPage: NextPage = () => {
       <div className={styles.innerContainer}>
         <Weather />
       </div>
+      {/* TODO: add loading overlay here */}
     </div>
   )
 }

@@ -2,12 +2,13 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import { fetchWeather, getIconUrl } from '../api/open-weather/open-weather'
 import type { Coords } from '../lib/location'
 import { AppState } from '../store'
+import { RequestStatus } from '../lib/types'
 
 export interface WeatherState {
     temp: number,
     condition: string,
     iconUrl: string,
-    status: 'loading' | 'idle' | 'failed',
+    status: RequestStatus
 }
 
 const initialState: WeatherState = {
