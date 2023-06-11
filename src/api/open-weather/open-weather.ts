@@ -5,7 +5,7 @@ interface WeatherData {
 }
 
 export const getIconUrl = (icon: string): string => {
-    return `https://openweathermap.org/img/wn/${icon}@2x.png`
+    return `https://openweathermap.org/img/wn/${icon}.png`
 }
 
 export const fetchWeather = async (lat: number, lon: number): Promise<WeatherData> => {

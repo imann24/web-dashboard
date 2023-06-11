@@ -13,7 +13,9 @@ const IndexPage: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Background />
-      <Weather />
+      <div className={styles.innerContainer}>
+        <Weather />
+      </div>
     </div>
   )
 }

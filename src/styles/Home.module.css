@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.innerContainer {
+  padding: 2rem;
+}
+
 .logo {
   height: 40vmin;
   pointer-events: none;
