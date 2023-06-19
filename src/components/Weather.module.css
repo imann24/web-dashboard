@@ -1,5 +1,26 @@
 .container {
     float: right;
+    background: #237B7B;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: White;
+    border: 1px solid White;
+    min-width: 180px;
+    min-height: 120px;
+    text-align: right;
+}
+
+.loading {
+    animation: flash 2s infinite;
+}
+
+@keyframes flash{
+    0% {
+      color: White;
+    }
+    50% {
+      color: #237B7B;
+    }
 }
 
 .text {

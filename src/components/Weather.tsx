@@ -27,10 +27,18 @@ const Weather: FunctionComponent = ({}) => {
         }))
     }, [coordinates])
     if (weather.status === 'loading') {
-        return <p className={styles.container}>loading weather...</p>
+        return (
+            <p className={`${styles.container} ${styles.loading}`}>
+                <br />loading weather...
+            </p>
+        )
     }
     if (weather.status === 'failed') {
-        return <p className={styles.container}>failed to get weather.</p>
+        return (
+            <p className={styles.container}>
+                <br />failed to get weather.
+            </p>
+        )
     }
 
     return (
