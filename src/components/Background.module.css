@@ -5,4 +5,16 @@
     height: 100%;
     position: absolute;
     z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    pointer-events: auto;
+}
+
+.arrowIcon {
+    z-index: 1;
+    color: White;
+    height: 3rem;
+    cursor: pointer;
 }
