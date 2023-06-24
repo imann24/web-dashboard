@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    pointer-events: auto;
+    pointer-events: none;
 }
 
 .arrowIcon {
@@ -18,4 +18,5 @@
     color: White;
     height: 3rem;
     cursor: pointer;
+    pointer-events: auto;
 }

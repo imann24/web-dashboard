@@ -3,12 +3,14 @@ import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit'
 import counterReducer from './features/counter/counterSlice'
 import weatherReducer from './store/weatherSlice'
 import backgroundReducer from './store/backgroundSlice'
+import goalsReducer from './store/goalsSlice'
 
 export function makeStore() {
   return configureStore({
     reducer: { 
       background: backgroundReducer,
       counter: counterReducer,
+      goals: goalsReducer,
       weather: weatherReducer,
     },
   })

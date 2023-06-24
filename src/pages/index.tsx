@@ -4,6 +4,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Background from '../components/Background'
 import Weather from '../components/Weather'
+import Goals from '../components/Goals'
 
 const IndexPage: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage: NextPage = () => {
       <Background />
       <div className={styles.innerContainer}>
         <Weather />
+        <Goals />
       </div>
       {/* TODO: add loading overlay here */}
     </div>

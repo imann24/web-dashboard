@@ -1,0 +1,45 @@
+.container {
+    background-color: Lightgray;
+    border-radius: 0.5rem;
+    margin: 10rem;
+    min-height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.prompt {
+    padding: 2.5rem;
+    text-align: center;
+    color: White;
+    font-size: 3rem;
+}
+
+.input {
+    margin: 0 auto;
+    pointer-events: auto;
+    outline: none;
+    border: none;
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+}
+
+.goals {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    gap: 1rem;
+    margin-left: 17.5rem;
+}
+
+.singleGoal {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.deleteGoal {
+    cursor: pointer;
+}
